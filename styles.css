@@ -1,0 +1,71 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+canvas {
+  background: rgb(182, 214, 245);
+  display: block;
+  margin: 0 auto;
+  background-image:    url(yellowBack.jpg);
+  background-size:     cover;                      
+  background-repeat:   no-repeat;
+  background-position: center center;
+  border-style: solid;
+  border-width: medium;
+  border-color: orange;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  width: 1000px;
+  height: 700px; 
+}
+
+#canvasWrap {
+  display: block;
+  margin: 0 auto;
+  /* width: 1000px;
+  height: 700px;  */
+  /* display: flex;
+  justify-content: center; */
+}
+
+#gameover{
+  position: absolute;
+  width: 1000px;
+  height: 700px; 
+  background: rgba(0,0,0,0.5);
+  display: none;
+  top: 0;
+  left: 0;
+  background-size:     cover;                      
+  background-repeat:   no-repeat;
+  background-position: center center;
+}
+#youwon{
+  width: 100px;
+  position: absolute;
+  top : 200px;
+  left : 150px;
+  display: none;
+}
+#youlose{
+  width : 50%;
+  height: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  /* top: 100px;
+  left : 0px; */
+  display: none;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  
+}
